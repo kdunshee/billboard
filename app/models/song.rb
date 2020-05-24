@@ -1,4 +1,4 @@
 class Song < ApplicationRecord
     has_many :billboards
-    has_many :songs, through: :billboards
+    has_many :artist, through: :billboards
 end
